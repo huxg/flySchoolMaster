@@ -58,7 +58,7 @@
 {
     
     NSString *fiel = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)objectAtIndex:0];
-    NSString *fielpath = [fiel stringByAppendingString:@"/FileDocuments/NewUser.txt"];
+    NSString *fielpath = [fiel stringByAppendingString:@"/FileDocuments/NuserINFoo.txt"];
     NSDictionary * ddict = [[NSDictionary alloc]initWithContentsOfFile:fielpath];
     NSLog(@"功能整体数据:%@",ddict);
     MAAry = [ddict objectForKey:@"data"];
@@ -67,24 +67,27 @@
     {
         
         [self layoutMoudel:MAAry];
-        return;
+        
     }
-    NSMutableDictionary *dic = [NSMutableDictionary dictionary];
-    [dic setObject:[FuncPublic createUUID] forKey:@"r"];
-    [SVHTTPRequest GET:@"/api/module/getModule.html" parameters:dic
-            completion:^(NSMutableDictionary * response, NSHTTPURLResponse *urlResponse, NSError *error) {
-                
-                //  NSLog(@"返回数据%@",response);
-                [ FuncPublic saveDataToLocal:response toFileName:@"NuserINFoo.txt"];
-                NSArray *arrar = [response objectForKey:@"data"];
-                [self layoutMoudel:arrar];
-                MAAry = [response objectForKey:@"data"];
-                [[MyDbHandel defaultDBManager]openDb:DBName];
-                NSString *sql = [NSString stringWithFormat:@"drop table %@",NAME];
-                [[MyDbHandel defaultDBManager]creatTab:sql];
-                
-                
-            }];
+    else
+    {
+        NSMutableDictionary *dic = [NSMutableDictionary dictionary];
+        [dic setObject:[FuncPublic createUUID] forKey:@"r"];
+        [SVHTTPRequest GET:@"/api/module/getModule.html" parameters:dic
+                completion:^(NSMutableDictionary * response, NSHTTPURLResponse *urlResponse, NSError *error) {
+                    
+                    NSLog(@"返回数据%@",response);
+                    [ FuncPublic saveDataToLocal:response toFileName:@"NuserINFoo.txt"];
+                    NSArray *arrar = [response objectForKey:@"data"];
+                    [self layoutMoudel:arrar];
+                    MAAry = [response objectForKey:@"data"];
+                    [[MyDbHandel defaultDBManager]openDb:DBName];
+                    NSString *sql = [NSString stringWithFormat:@"drop table %@",NAME];
+                    [[MyDbHandel defaultDBManager]creatTab:sql];
+                    
+                    
+                }];
+    }
 }
 -(void)layoutMoudel:(NSArray *)Marry
 {

@@ -78,6 +78,7 @@
     [super viewDidLoad];
     //当模块改变时监听通知
     [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(notihandel:) name:@"chageindex" object:nil];
+    [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(drawUI) name:@"statuschange" object:nil];
     //导航栏上的配置
     NSString *zxmc = [[FuncPublic GetDefaultInfo:@"Newuser"]objectForKey:@"zxmc"];
     NSString *usernam = [[FuncPublic GetDefaultInfo:@"Newuser"]objectForKey:@"djxm"];
