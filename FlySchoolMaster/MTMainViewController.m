@@ -33,6 +33,7 @@
 #define userinfor @"userset.list"
 @interface MTMainViewController ()<UIScrollViewDelegate>
 {
+    ////////////////
     UIPageControl *mypage;
     NSMutableArray *dataarr;
     NSString *upurl;
