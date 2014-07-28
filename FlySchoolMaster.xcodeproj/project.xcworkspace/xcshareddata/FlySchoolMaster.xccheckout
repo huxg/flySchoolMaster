@@ -5,19 +5,19 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>A8B1D853-B410-41F3-88F6-FAB0B9A3797D</string>
+	<string>C984C446-96B2-44CF-A5F6-FFAFEF0B1608</string>
 	<key>IDESourceControlProjectName</key>
 	<string>FlySchoolMaster</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>204C3A50-386D-4FFC-BEBD-249FA61A5122</key>
+		<key>5A71B8DD-7B06-4721-B0E1-522C326CA6AC</key>
 		<string>https://github.com/huxg/flySchoolMaster.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>FlySchoolMaster.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>204C3A50-386D-4FFC-BEBD-249FA61A5122</key>
+		<key>5A71B8DD-7B06-4721-B0E1-522C326CA6AC</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,16 +25,16 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>204C3A50-386D-4FFC-BEBD-249FA61A5122</string>
+	<string>5A71B8DD-7B06-4721-B0E1-522C326CA6AC</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>204C3A50-386D-4FFC-BEBD-249FA61A5122</string>
+			<string>5A71B8DD-7B06-4721-B0E1-522C326CA6AC</string>
 			<key>IDESourceControlWCCName</key>
-			<string>FlySchoolMaster完整版副本 2</string>
+			<string>flySchoolMaster</string>
 		</dict>
 	</array>
 </dict>
