@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A8B1D853-B410-41F3-88F6-FAB0B9A3797D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>FlySchoolMaster</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>204C3A50-386D-4FFC-BEBD-249FA61A5122</key>
+		<string>https://github.com/huxg/flySchoolMaster.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>FlySchoolMaster.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>204C3A50-386D-4FFC-BEBD-249FA61A5122</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/huxg/flySchoolMaster.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>204C3A50-386D-4FFC-BEBD-249FA61A5122</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>204C3A50-386D-4FFC-BEBD-249FA61A5122</string>
+			<key>IDESourceControlWCCName</key>
+			<string>FlySchoolMaster完整版副本 2</string>
+		</dict>
+	</array>
+</dict>
+</plist>
