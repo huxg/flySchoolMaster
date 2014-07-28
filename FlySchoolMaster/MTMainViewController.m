@@ -190,6 +190,7 @@
     
     
 }
+
 //功能模块的数据
 -(void)getdata
 {
@@ -243,6 +244,8 @@
     //            }];
     
 }
+
+
 -(BOOL)insert:(NSArray *)arr
 {
     [[MyDbHandel defaultDBManager]openDb:DBName];

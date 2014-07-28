@@ -195,6 +195,9 @@
         UINavigationController *nav = (UINavigationController *)[commenmoud objectAtIndex:2];
         nav.navigationBarHidden = YES;
         [nav popToRootViewControllerAnimated:NO];
+        MTWebView *web = nav.viewControllers[0];
+        web.urlstr = [NSString stringWithFormat:@"%@%@",SERVER,[modic objectForKey:@"param"] ];
+        web.titlestr = [modic objectForKey:@"name"];
         self.viewControllers = [NSArray arrayWithObject:nav];
     }
     if([mode isEqualToString:@"builtin"])
